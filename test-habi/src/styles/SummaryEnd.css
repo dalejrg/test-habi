@@ -1,0 +1,31 @@
+
+.summary-end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    top: 0;
+    bottom: 0;
+}
+
+.txtSummary {
+    width: 90vw;
+}
+
+.btnFinish {
+    padding-top: 2%;
+}
+@media screen and (min-width: 700px) {
+    
+    .summaryContent {
+        padding-top: 20px;
+    }
+    
+    
+    .txtSummary {
+        width: 50vw;
+        padding-top: -20px;
+    }
+}
